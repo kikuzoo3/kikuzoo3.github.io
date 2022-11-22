@@ -2,25 +2,6 @@ html {
   font-size: 14px;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-}
-
-.header-logo img {
-
-  object-fit: cover;
-}
-
 @media screen and (min-width: 768px) {
   html {
     font-size: 16px;
@@ -58,17 +39,11 @@ a {
 .header-list {
   display: flex;
   justify-content: space-between;
-  margin-top: 1.5rem;
-  
+  margin-top: 1.5rem;  
 }
 
 .header-item {
   font-size: 1.2rem;
-}
-
-.about-image img {
-  width: 100%;
-  object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -157,13 +132,7 @@ a {
   margin-top: 30px;
 }
 
-.career-list {
 
-}
-
-.career-item {
-
-}
 
 @media screen and (min-width: 768px) {
   .about-wrapper {
@@ -193,9 +162,7 @@ a {
   gap: 40px 20px;
 }
 
-.skill-item {
 
-}
 
 .skill-image {
   height: 180px;
@@ -230,13 +197,7 @@ a {
 }
 
 /* works */
-.works {
 
-}
-
-.work-list {
-
-}
 
 .work-item {
   margin-top: 45px;
@@ -254,17 +215,6 @@ a {
   padding: 0 16px;
 }
 
-.work-title {
-
-}
-
-.work-skill {
-
-}
-
-.work-time {
-
-}
 
 .work-item.reverse {
   flex-direction: row-reverse;
@@ -302,22 +252,37 @@ a {
   margin-top: 60px;
 }
 
-.contact-message {
-
-}
-
 .contact-mail {
   font-size: 2rem;
   font-weight: bold;
 }
 
-.icon-area {
+.contact-message a:hover {
+  text-decoration: underline;
+  color: #da70d6;
+}
+
+/* .icon-area {
   margin-top: 30px;
 }
 
 .icon-area .fab {
   font-size: 2rem;
   margin: 0 1rem;
+} */
+
+.p-txt {
+  margin-top: 32px;
+}
+
+.p-txt a {
+  display: block;
+  margin-top: 8px;
+}
+
+.p-txt a:hover {
+  text-decoration: underline;
+  color: #da70d6;
 }
 
 /* footer */
